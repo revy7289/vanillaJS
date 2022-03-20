@@ -1,0 +1,269 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url("img/BG01.jpg") no-repeat center fixed;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.center{
+    position: relative;
+    background-color: #F3ACB4;
+    border-radius: 10px;
+    box-shadow: -1px -1px 4px #ffffff, 1px 2px 4px rgba(0, 0, 0, 0.25), inset 1px 2px 2px rgba(0, 0, 0, 0.1), inset -1px -1px 3px #ffffff;
+    width: 320px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* count clock-wise from the top-left */
+.chip01{
+    position: absolute;
+    background-color: #ACCA48;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: -54%;
+    top: -60%;
+}
+
+.chip02{
+    position: absolute;
+    background-color: #F8E299;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: -2%;
+    top: -55%;
+}
+
+.chip03{
+    position: absolute;
+    background-color: #90D2F4;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: 50%;
+    top: -60%;
+}
+
+.chip04{
+    position: absolute;
+    background-color: #DA9EC4;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: 102%;
+    top: -58%;
+}
+
+.chip05{
+    position: absolute;
+    background-color: #C3DC81;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: 108%;
+    top: -2%;
+}
+
+.chip06{
+    position: absolute;
+    background-color: #F2987E;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: 105%;
+    top: 52%;
+}
+
+.chip07{
+    position: absolute;
+    background-color: #BCAAD2;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 130px;
+    height: 160px;
+    left: 120%;
+    top: 108%;
+}
+
+.chip08{
+    position: absolute;
+    background-color: #F7C83E;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 130px;
+    height: 160px;
+    left: 75%;
+    top: 110%;
+}
+
+.chip09{
+    position: absolute;
+    background-color: #FCE0B8;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 130px;
+    height: 160px;
+    left: 30%;
+    top: 108%;
+}
+
+.chip10{
+    position: absolute;
+    background-color: #F7BD8D;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 130px;
+    height: 160px;
+    left: -15%;
+    top: 112%;
+}
+
+.chip11{
+    position: absolute;
+    background-color: #B78CB7;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 130px;
+    height: 160px;
+    left: -60%;
+    top: 105%;
+}
+
+.chip12{
+    position: absolute;
+    background-color: #F7AE4F;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: -55%;
+    top: 51%;
+}
+
+.chip13{
+    position: absolute;
+    background-color: #F3ACA6;
+    border-radius: 5px;
+    box-shadow: inherit;
+    transition: 0.5s;
+    width: 150px;
+    height: 180px;
+    left: -52%;
+    top: -3%;
+}
+
+.hidden{
+    display: none;
+}
+
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    color: #F5F1E7;
+    text-shadow: 1px 1px 9px rgb(44, 44, 44, 0.3);
+    text-align: center;
+}
+
+.today{
+    margin-top: 18%;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.clock{
+    margin-top: 20%;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+.date{
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    color: #262626;
+    text-shadow: 1px 1px 9px rgb(44, 44, 44, 0.3);
+    text-align: center;
+}
+
+.btn{
+    font-style: initial;
+}
+
+.greeting{
+    width: 280px;
+    position: relative;
+    font-size: 24px;
+    transition: 1s;
+    margin-bottom: 30%;
+}
+
+.todo_div{
+    position: absolute;
+    margin-top: 50%;
+}
+
+.icon{
+    position: inherit;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transition: 1s;
+    opacity: 0.9;
+}
+
+.todo{
+    font-size: 20px;
+    margin-top: 40%;
+}
