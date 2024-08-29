@@ -1,7 +1,7 @@
 # vanillaJS-challenge
 <br />
 JS챌린지 22기 졸업 및 우수작품 선정 <br />
-https://nomadcoders.co/community/thread/405 <br />
+https://nomadcoders.co/community/thread/4059 <br />
 <br />
 프로젝트 바로가기 <br />
 https://revy7289.github.io/vanillaJS <br />
